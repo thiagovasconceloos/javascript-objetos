@@ -11,7 +11,16 @@ export default class Admin extends User {
    
 
 
+
+
   } 
+
+
+  
+  exibirInfos() {
+   
+    return `${objUser.nome}, ${objUser.email}`
+}
 
   criarCurso(nomedoCurso,vagas){
 
